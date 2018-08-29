@@ -8,6 +8,10 @@ const API_KEY = "6720005e36f182c86760ebe385db0d9c";
 
 class App extends React.Component
 {
+  getWeather = async () =>
+  {
+    const api_call = await fetch();
+  }
   render()
   {
     return(
